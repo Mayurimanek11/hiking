@@ -1,0 +1,263 @@
+#bgmain_img
+{
+    position: relative;
+    /* background-image: url("img/maint.jpg"); */
+    width: 100%;
+    height: 55rem;
+    /* background-repeat: no-repeat; */
+
+    z-index: 0;
+}
+
+  .small_logo
+{
+    
+        width: 6rem;
+        margin-inline-start: 40vw;
+        /* margin-top: -95rem; */
+        position: absolute;
+        z-index: 1;
+        margin-top: -142vh;
+    
+    
+}  
+/*----------------nav part----------*/
+ul
+{
+    /* margin-top: -47rem; */
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    font-weight: 600;
+    list-style: none;
+    margin-inline-start:3rem;
+    margin-top: -45rem;
+
+}
+
+
+li
+{
+    color: white;
+    padding-inline: 0.5rem;
+}
+
+#search_bar
+{
+    margin-top: -45rem;
+    position: absolute;
+    margin-inline-start: 25rem;
+    background-color: white;
+}
+
+/*--------------left lorem part----*/
+#left_p {
+    margin-top: -24rem;
+    margin-left: 5rem;
+    z-index: 1;
+    padding: 2rem;
+    padding-inline: 2rem;
+    position: sticky;
+    font-size: small;
+    color: white;
+    background-color: #e679116b;
+}
+/*----------right part-----------*/
+#biglogo
+{
+    position: absolute;
+    z-index: 1;
+    margin-top: -38rem;
+    margin-inline-start: 16rem;
+    width: 31vw;
+}
+
+#hike_more {
+    position: absolute;
+    z-index: 1;
+    font-size: 7rem;
+    margin-top: -57vh;
+    margin-inline-start: 13vw;
+    color: white;
+    font-family: initial;
+
+}
+#warry_less
+{
+   position: absolute;
+    margin-top: -39vh;
+    color: white;
+    z-index: 1;
+    margin-inline-start: 21rem;
+    font-size: 4rem;}
+
+    /* #warry_less:before, */
+    #warry_less:after  
+
+{
+    display: flex;
+    flex-direction: row;
+}
+#warry_less:before
+{
+  content:" ";
+  height: 0.2rem;
+  width: 9vw;
+  background:white;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-left: -9rem;
+}
+
+#warry_less:after 
+{
+    content:" ";
+  height: 2px;
+  width: 9vw;
+  background:white;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-right: -9rem;
+
+}
+#right_p
+{
+    margin-top: -8rem;
+    margin-left: 5rem;
+    z-index: 1;
+    padding: 0rem;
+    padding-inline: 17rem;
+    position: sticky;
+    font-size: small;
+    color: white;
+}
+     
+#yellow
+{
+    background-color: yellow;
+    width: 100%;
+    height: 50vh;
+    font-size: x-large;
+    text-align: center  ;
+}
+#black
+{
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+
+
+}
+#yello_p
+{
+    font-size: x-large;
+    font-weight:bold;
+    align-items: center;
+}
+/*----------bottom part----------*/
+#bottam_img
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+/*------------card---*/
+.bottom_part
+{
+        position: sticky;
+        margin-top: -140vh;
+        z-index: 1;
+        padding-inline: 9rem;
+}
+.card_p
+{
+    font-size: small;
+}
+h1 {
+    font-size: 2.5rem;
+    position: sticky;
+    z-index: 1;
+    margin-top: -149vh;
+    margin-inline-start: 36vw;
+}
+/*-------mrdia qurey-----------*/
+@media screen and (max-width: 375px) 
+
+{
+    
+    #bgmain_img {
+       width: auto;
+    }
+    .small_logo
+    {
+        margin-inline-start: 40vw;
+        margin-top: -168vh;
+    }
+    ul{
+        margin-top: -47rem;
+    }
+
+    #biglogo {
+        width: 168vw;
+    
+    margin-top: -49rem;
+    margin-inline: 32rem
+    }
+    #left_p {
+        margin-top: -18rem;
+        margin-left: 1rem;
+        padding: 2rem;
+        padding-inline: 2rem;
+    }
+    #hike_more {
+        position: fixed;
+        font-size: 7rem;
+        margin-top: -62vh;
+        margin-inline-start: 226vw;
+        
+        margin-top: -93vh;
+        margin-inline-start: 146vw
+    }
+    #warry_less {
+        font-size: 4rem;
+        margin-top: -72vh;
+    margin-inline-start: 42rem;
+    font-size: 4rem;
+    position: fixed;
+    }
+    #bottam_img {
+        width: 402vw;
+    }
+    h1 {
+        font-size: 3.5rem;
+        position: absolute;
+        margin-top: -218vh;
+        margin-inline-start: 104vw;
+    }
+    .bottom_part {
+    position: absolute;
+    margin-top: -173vh;
+    padding-inline: 2rem;
+}
+
+#black {
+    width: 315vw;
+}
+#yellow
+{
+    width:315vw ;
+}
+
+#right_p {
+    margin-top: -6rem;
+    margin-left: 2rem;
+    padding: 0rem;
+    padding-inline: -15rem;
+}
+
+}
