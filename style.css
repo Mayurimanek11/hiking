@@ -206,7 +206,8 @@ h1 {
         width: 168vw;
     
     margin-top: -49rem;
-    margin-inline: 32rem
+    margin-inline: 47rem;
+
     }
     #left_p {
         margin-top: -18rem;
@@ -217,11 +218,8 @@ h1 {
     #hike_more {
         position: fixed;
         font-size: 7rem;
-        margin-top: -62vh;
-        margin-inline-start: 226vw;
-        
         margin-top: -93vh;
-        margin-inline-start: 146vw
+        margin-inline-start: 195vw
     }
     #warry_less {
         font-size: 4rem;
@@ -246,17 +244,18 @@ h1 {
 }
 
 #black {
-    width: 315vw;
+    width: 420vw;
 }
 #yellow
 {
-    width:315vw ;
+    width:420vw ;
 }
 
 #right_p {
     margin-top: -6rem;
-    margin-left: 2rem;
+    margin-left: 49rem;
     padding: 0rem;
+    position: fixed;
     padding-inline: -15rem;
 }
 
